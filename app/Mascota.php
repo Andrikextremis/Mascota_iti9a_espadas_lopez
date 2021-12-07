@@ -14,7 +14,7 @@ class Mascota extends Model
     //Numeric PK or not
     public $incrementing=true;
 
-     //activate or desactivate timestamps
+    //activate or desactivate timestamps
     public $timestamps=true;
     public $fillable=[
     'id_mascota',

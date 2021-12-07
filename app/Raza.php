@@ -12,8 +12,8 @@ class Raza extends Model
     public $incrementing=true;
     public $timestamps=false;
     public $fillabe=[
-        'id_razas',
-        'razas'
+    'id_raza',
+    'razas'
     ];
 
 }

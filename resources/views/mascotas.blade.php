@@ -3,7 +3,7 @@
 @section('contenido')
 <!--Vue Start-->
 <div id="mascota">  
-<!--<div class="row"-->
+<!--div class="row"-->
 <div class="row">
 <div class="col-md-12">
 <div class="card card-warning">
@@ -42,7 +42,7 @@ v-model="buscar">
 </tbody>
 </table>
 </div></div></div></div>
-<!-- Modal for the formulary -->
+<!--Modal for the formulary-->
 <div class="modal fade" id="modalMascota" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
@@ -76,7 +76,7 @@ v-model="buscar">
 <button type="button" class="btn btn-primary" @click="agregarMascota" v-if="agregando==true">Guardar</button>
 <button type="button" class="btn btn-primary" @click="actualizarMascota()" v-if="agregando==false">Editar</button>
 </div></div></div></div>
-<!-- model end-->
+<!--model end-->
 </div>
 <!--Vue Ends-->
 @endsection
